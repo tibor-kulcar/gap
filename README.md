@@ -9,7 +9,8 @@ Google App Engine is excellent technology but there is a gap.
 
 then this bare-bone could be at least an inspiration for you.
 
-## How to use it (Python part)
+## How to use it
+### Python part
 * Clone or download the project
 * `pip install appengine` or download and install [Appengine SDK](https://developers.google.com/appengine/downloads) 
 * Create a virtualenv for you project
@@ -18,7 +19,7 @@ then this bare-bone could be at least an inspiration for you.
 * Start hacking your application under package `src/app`
 * You can use any lib you have installed using gip in you code (dev_server, shell as well as after uploading to server).
 
-## How to use it (Angular.js part)
+### Angular.js part
 * Install [npm](https://npmjs.org/)
 * `npm install -g grunt-cli` - installs [grunt](http://gruntjs.com/) commandline
 * `npm install -g bower` - installs [bower](http://bower.io/)
@@ -28,6 +29,10 @@ then this bare-bone could be at least an inspiration for you.
 * alternatively, `grunt watch` starts watching `src/static/coffee` for changes
 * `bin/run` starts dev app server
 * navigate to [http://localhost:8080](http://localhost:8080) and enjoy!
+
+### Selenium part
+* Install selenium 'pip install selenium'
+* For Chrome support download ChromeDriver from https://code.google.com/p/chromedriver/downloads/list and unzip where you like to. Current path to chromedriver is set to /src/test/selenium_tests/
 
 ## Thank you!
 Any ideas, thoughts, fixes (specially corrections of my english :) are welcome!
